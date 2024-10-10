@@ -41,7 +41,7 @@ export const DATA = {
         navbar: true,
       },
       Email: {
-        name: "Youtube",
+        name: "Email",
         url: "mailto:developer.nikk@gmail.com",
         icon: Icons.email,
         navbar: true,
@@ -159,7 +159,7 @@ export const DATA = {
       dates: "Nov 2023 - Dec 2023",
       active: true,
       description:
-        "Designed, developed an online learning platform where advanced your skills.",
+        "Designed, developed an online learning platform where you can upscaled your skills.",
       technologies: [
         "React",
         "Typescript",
@@ -189,7 +189,7 @@ export const DATA = {
       description:
         "Developed a platforms empowers you to explore new cuisines, perfect classic dishes, and build confidence in your cooking.",
       technologies: [
-        "Next.js",
+        "React",
         "Typescript",
         "Firebase",
         "TailwindCSS",
@@ -210,15 +210,5 @@ export const DATA = {
       video:
         "/chef.mp4",
     },
-  ],
-  skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Express.js",
-    "Postgres",
-    "JavaScript",
-    "C++",
   ],
 } as const;
