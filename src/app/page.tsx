@@ -9,6 +9,8 @@ import { DATA } from "@/data/resume";
 import { div } from "framer-motion/client";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import OrbitingCircles from "@/components/ui/orbiting-circles";
+import { Icons } from "@/components/icons";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -98,20 +100,6 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
-          </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
-          </div>
-        </div>
-      </section>
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -153,24 +141,108 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="hackathons">
-        <div className="space-y-12 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
-                </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  
-                </p>
-              </div>
-            </div>
-          </BlurFade>
-        </div>
+      <section id="skills">
+      <div className="relative flex h-[550px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-9xl font-semibold leading-none text-transparent dark:from-white dark:to-black">
+        Skills
+      </span>
+
+      {/* Inner Circles */}
+      <OrbitingCircles
+        className="size-[30px] border-none bg-transparent"
+        duration={20}
+        delay={20}
+        radius={80}
+      >
+        <Icons.nextjs />
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="size-[30px] border-none bg-transparent"
+        duration={20}
+        delay={10}
+        radius={80}
+      >
+        <Icons.express />
+      </OrbitingCircles>
+
+      {/* Outer Circles (reverse) */}
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={140}
+        duration={20}
+        reverse
+      >
+        <Icons.react />
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={140}
+        duration={20}
+        delay={20}
+        reverse
+      >
+        <Icons.typescript />
+      </OrbitingCircles>
+
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={200}
+        duration={30}
+        delay={20}
+       
+      >
+        <Icons.postgresql />
+      </OrbitingCircles>
+      
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={200}
+        duration={30}
+        delay={10}
+
+      >
+        <Icons.cpp/>
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={200}
+        duration={30}
+        delay={30}
+
+      >
+        <Icons.github/>
+      </OrbitingCircles>
+
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={250}
+        duration={30}
+        delay={20}
+        reverse
+      
+      >
+        <Icons.js/>
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={250}
+        duration={30}
+        delay={30}
+        reverse
+      >
+        <Icons.java/>
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={250}
+        duration={30}
+        delay={10}
+        reverse
+      >
+        <Icons.node/>
+      </OrbitingCircles>
+      
+    </div>
       </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">

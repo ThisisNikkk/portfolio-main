@@ -12,16 +12,6 @@ export const DATA = {
   summary:
     "Dynamic and results-driven software developer with a Bachelor of Technology in Computer Science, currently pursuing a degree at BRCM College of Engineering and Technology. With hands-on experience as a Software Development Engineer Intern at Bluestock Fintech, I have successfully collaborated within a team to create a fully responsive IPO website, enhancing user engagement by 15% through optimized design and performance improvements. My technical proficiency spans multiple programming languages, including JavaScript, HTML/CSS, C++ and frameworks such as Next.js, React, Express.",
   avatarUrl: "/nik.jpg",
-  skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Express.js",
-    "Postgres",
-    "JavaScript",
-    "C++",
-  ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
   ],
@@ -220,5 +210,15 @@ export const DATA = {
       video:
         "/chef.mp4",
     },
+  ],
+  skills: [
+    "React",
+    "Next.js",
+    "Typescript",
+    "Node.js",
+    "Express.js",
+    "Postgres",
+    "JavaScript",
+    "C++",
   ],
 } as const;
