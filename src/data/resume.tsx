@@ -119,6 +119,11 @@ export const DATA = {
           href: "https://careconnect-io.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/ThisisNikkk/CareConnect",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "",
       video:
