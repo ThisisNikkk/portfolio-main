@@ -128,7 +128,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/PrepAi.mp4",
+        "/prepai.mp4",
     },
     {
       title: "UnifyConnect",
