@@ -10,8 +10,8 @@ export const DATA = {
   description:
     "Software Engineer. Transforming Concepts into Marvellous Reality.",
   summary:
-    "Dynamic and results-driven software developer with a Bachelor of Technology in Computer Science, currently pursuing a degree at BRCM College of Engineering and Technology. With hands-on experience as a Software Development Engineer Intern at Bluestock Fintech, I have successfully collaborated within a team to create a fully responsive IPO website, enhancing user engagement by 15% through optimized design and performance improvements. My technical proficiency spans multiple programming languages, including JavaScript, HTML/CSS, C++ and frameworks such as Next.js, React, Express.",
-  avatarUrl: "/nik.jpg",
+    "Results-driven Software Developer with experience in full-stack development, proficiency in JavaScript, React and Node.js. Skilled in building scalable applications, optimizing web performance, and developing REST APIs to enhance user experience Internship experience at Bluestock Fintech and Qspiders, working in Agile environments to deliver high-performance solutions. Passionate about innovation, problem-solving, and continuous learning, holding a Meta Certified Front-End Developer credential..",
+  avatarUrl: "/ni.png",
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
   ],
@@ -98,6 +98,70 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "PrepAI",
+      href: "https://prepai-live.vercel.app/",
+      dates: "Mar 2025 - Apr 2025",
+      active: true,
+      description:
+        "PrepAI is an AI-powered mock interview platform built with NEXT.js, Firebase, Shadcn, Tailwindcss, Vapi AI, and Gemini API. It offers realistic interview simulations, personalized feedback, and a sleek, responsive design to empower users in mastering their interview skills and achieving career success.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Firebase",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Vapi AI",
+        "Gemini API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://prepai-live.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ThisisNikkk/PrepAI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/PrepAi.mp4",
+    },
+    {
+      title: "UnifyConnect",
+      href: "https://unify-connect.vercel.app/",
+      dates: "Feb 2025 - Mar 2025",
+      active: true,
+      description:
+        "UnifyConnect is a real-time communication platform that combines high-quality video calling with AI-powered live captions and sign language translation. Utilizing a custom CNN-LSTM neural network with MediaPipe hand tracking, it translates sign language into text in real time with minimal latency and high accuracy.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Clerk",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Stream.io",
+        "Python",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://unify-connect.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ThisisNikkk/UnifyConnect",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/UnifyConnect.mp4",
+    },
     {
       title: "CareConnect",
       href: "https://careconnect-io.vercel.app/",
@@ -214,6 +278,19 @@ export const DATA = {
       image: "",
       video:
         "/chef.mp4",
+    },
+  ],
+  hackathons: [
+    {
+      title: "Empower Hackathon",
+      dates: "March 8th, 2025",
+      location: "Ahemdabad, Gujrat",
+      description:
+        "Developed UnifyConnect is a real-time platform offering video calls, AI captions, and sign language translation via a custom CNN-LSTM with MediaPipe hand tracking for low-latency, accurate conversion.",
+      image:
+        "/IIM.jpg",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [],
     },
   ],
 } as const;
