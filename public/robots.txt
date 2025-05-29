@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nikhilsiwan.vercel.app/sitemap.xml
