@@ -16,14 +16,23 @@ export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
     default: "Nikhil's Developer Portfolio",
-    template: `%s | ${DATA.name}`,
+    template: `%s | Nikhil Siwan`,
   },
-  description: DATA.description,
+  description:
+    "Nikhil Siwan's Developer Portfolio – Explore projects, skills, and experience of Nikhil Siwan, a passionate developer from Siwan.",
+  keywords: [
+    "Nikhil Siwan",
+    "Nikhil's Developer Portfolio",
+    "Siwan developer",
+    "web developer",
+    "portfolio",
+  ],
   openGraph: {
-    title: `${DATA.name}`,
-    description: DATA.description,
+    title: "Nikhil's Developer Portfolio",
+    description:
+      "Nikhil Siwan's Developer Portfolio – Explore projects, skills, and experience of Nikhil Siwan, a passionate developer from Siwan.",
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: "Nikhil Siwan",
     locale: "en_US",
     type: "website",
   },
@@ -39,7 +48,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: `${DATA.name}`,
+    title: "Nikhil's Developer Portfolio",
     card: "summary_large_image",
   },
   verification: {
