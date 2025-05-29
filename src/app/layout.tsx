@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   verification: {
-    google: "google-site-verification=cBWpxSER3RPQ_6GRAharH",
+    google: "cBWpxSER3RPQ_6GRAharH", // Only the code, no prefix
     yandex: "",
   },
 };
