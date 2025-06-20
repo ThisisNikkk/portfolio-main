@@ -52,6 +52,18 @@ export const DATA = {
 
   work: [
     {
+      company: "SachTech Solutions",
+      href: "http://sachtechsolution.com/",
+      badges: [],
+      location: "Onsite",
+      title: "Associate Software Engineer",
+      logoUrl: "/sts_logo.webp",
+      start: "Jun 2025",
+      end: "",
+      description:
+        "",
+    },
+    {
       company: "BlueStock Fintech",
       href: "https://bluestock.in/",
       badges: [],
@@ -75,18 +87,7 @@ export const DATA = {
       description:
         "Served as a Summer Intern, where I developed responsive web applications using HTML, CSS, and JavaScript, enhancing operational efficiency by 20%. I gained valuable experience in ensuring cross-browser compatibility, debugging application issues, and optimizing web applications for maximum speed and scalability, which amplified the online presence by tenfold. Additionally, I achieved a 30% reduction in page load time through front-end optimization and code refactoring, significantly improving the overall user experience.",
     },
-    {
-      company: "OctaNet",
-      href: "https://octanet.in/",
-      badges: [],
-      location: "Remote",
-      title: "Web Developer Intern",
-      logoUrl: "/octa.png",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Designed and optimized cross-platform user interfaces and client-side applications utilizing HTML, CSS, JavaScript, and React, resulting in a 40% increase in user retention.",
-    },
+    
   ],
   education: [
     {
