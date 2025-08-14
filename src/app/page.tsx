@@ -196,6 +196,7 @@ export default function Page() {
         radius={80}
       >
         <Icons.nextjs />
+    
       </OrbitingCircles>
       <OrbitingCircles
         className="size-[30px] border-none bg-transparent"
@@ -282,6 +283,22 @@ export default function Page() {
       >
         <Icons.node/>
       </OrbitingCircles>
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={300}
+        duration={30}
+      >
+        <Icons.firebase/>
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="size-[50px] border-none bg-transparent"
+        radius={300}
+        duration={30}
+        delay={20}
+      >
+        <Icons.bitbucket/>
+      </OrbitingCircles>
+      
       
     </div>
       </section>
