@@ -12,7 +12,7 @@ export const DATA = {
     "Software Engineer. Transforming Concepts into Marvellous Reality.",
   summary:
     "Results-driven Software Developer with experience in full-stack development, proficiency in JavaScript, React and Node.js. Skilled in building scalable applications, optimizing web performance, and developing REST APIs to enhance user experience Internship experience at Bluestock Fintech and Qspiders, working in Agile environments to deliver high-performance solutions. Passionate about innovation, problem-solving, and continuous learning, holding a Meta Certified Front-End Developer credential..",
-  avatarUrl: "/ni.png",
+  avatarUrl: "/2.jpg",
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
   ],
